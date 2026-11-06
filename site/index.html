@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#0b1930" />
-  <meta name="description" content="Read-only visual preview of the SHL International Operations OS." />
-  <title>SHL Operations OS — Interface preview</title>
+  <meta name="description" content="Explore the SHL Operations interface on GitHub Pages. No login required; read-only preview." />
+  <title>SHL Operations — Dashboard</title>
   <link rel="stylesheet" href="./styles.css" />
   <script src="./demo.js" defer></script>
 </head>
@@ -49,7 +49,7 @@
             <section class="surface mix-panel"><div class="surface-top"><div><p class="overline">RELATIONSHIP MIX</p><h2>Network composition</h2></div><span class="quiet-tag">NO SAMPLE DATA</span></div>
               <div class="mix-row"><div class="mix-icon blue">♙</div><div class="mix-content"><div><strong>Customers</strong><span>—</span></div><div class="track"></div></div></div>
               <div class="mix-row"><div class="mix-icon green">◇</div><div class="mix-content"><div><strong>Suppliers</strong><span>—</span></div><div class="track"></div></div></div>
-              <p class="surface-note">Real counts and composition will appear in the full application after signing in.</p>
+              <p class="surface-note">Live business counts require the protected company database, which is intentionally not connected to this public version.</p>
             </section>
             <section class="surface quick-panel"><div class="surface-top"><div><p class="overline">QUICK ACTIONS</p><h2>Explore the workspace</h2></div></div>
               <button class="quick-action" data-go="customers"><span class="quick-icon blue">♙</span><span><strong>Customer directory</strong><small>Preview the customer module</small></span><span class="quick-arrow">→</span></button>
@@ -79,17 +79,17 @@
           <div class="section-head"><div><p class="overline">INTERFACE PREVIEW</p><h2>RFQ pipeline</h2></div><span class="quiet-tag">NO SAMPLE DATA</span></div>
           <section class="surface rfq-table"><div class="table-toolbar"><div><h2>Sourcing requests</h2><p class="muted">Customer-linked enquiries and supplier offers</p></div><span class="fake-search">⌕ &nbsp; Search within private application</span></div>
             <div class="table-wrap"><table><thead><tr><th>REFERENCE</th><th>CUSTOMER / REQUEST</th><th>QUANTITY</th><th>SUPPLIER OFFERS</th><th>DEADLINE</th><th>STATUS</th></tr></thead></table></div>
-            <div class="empty"><div class="empty-icon">▤</div><h3>RFQ sourcing module</h3><p>Real customer inquiries, supplier prices, and business activities remain inside the authenticated SHL application. This preview does not connect to its database.</p></div>
+            <div class="empty"><div class="empty-icon">▤</div><h3>RFQ sourcing module</h3><p>Real customer inquiries, supplier prices, and business activities remain inside the protected SHL application. This preview does not connect to its database.</p></div>
           </section>
           <div class="rfq-next"><strong>Next modules</strong><span>Procurement &amp; POs</span><span>Shipment milestones</span><span>Invoicing &amp; approvals</span><span>Staff roles &amp; audit controls</span></div>
         </div>
         <div id="directory" class="screen" hidden>
           <div class="page-heading"><div><p class="overline">RELATIONSHIP MANAGEMENT / <span id="directory-category">CUSTOMERS</span></p><h1 id="directory-title">Customers<span>.</span></h1><p class="muted" id="directory-subtitle">Keep every customer relationship organized and accessible.</p></div>
-            <button class="primary" disabled title="Creating records requires the authenticated application">+ Add record</button></div>
+            <button class="primary" disabled title="Creating records requires the protected internal application">+ Add record</button></div>
           <div class="directory-summary"><div class="summary-icon">◇</div><div><p class="overline">DIRECTORY TOTAL</p><strong>—</strong></div><span>No live connection</span></div>
           <section class="surface table-panel"><div class="table-toolbar"><div><h2 id="table-heading">Customers directory</h2><p class="muted">Preview only · No records loaded</p></div><div class="fake-search">⌕ &nbsp; Search available in full app</div></div>
             <div class="table-wrap"><table><thead><tr><th>NAME</th><th>EMAIL</th><th>PHONE</th><th>COUNTRY</th><th>ADDED</th><th>ACTION</th></tr></thead></table></div>
-            <div class="empty"><div class="empty-icon">◇</div><h3>No data in preview mode</h3><p id="directory-empty">Customer records are stored only by the authenticated application. This public preview does not fetch or display them.</p></div>
+            <div class="empty"><div class="empty-icon">◇</div><h3>No data in preview mode</h3><p id="directory-empty">Customer records are stored only by the protected internal application. This public preview does not fetch or display them.</p></div>
             <div class="table-footer">Read only <span>Full application required for editing and exports</span></div>
           </section>
         </div>
