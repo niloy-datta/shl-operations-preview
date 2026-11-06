@@ -3,13 +3,13 @@ const sections = {
   customers: {
     label: "Customers",
     description: "Keep every customer relationship organized and accessible.",
-    empty: "Customer records are stored only by the authenticated application. This public preview does not fetch or display them."
+    empty: "Customer records are stored only by the protected internal system. This public preview does not fetch or display them."
   },
   rfqs: { label: "RFQ & Sourcing" },
   suppliers: {
     label: "Suppliers",
     description: "Keep every supplier relationship organized and accessible.",
-    empty: "Supplier records are stored only by the authenticated application. This public preview does not fetch or display them."
+    empty: "Supplier records are stored only by the protected internal system. This public preview does not fetch or display them."
   }
 };
 
